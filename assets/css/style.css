@@ -1,0 +1,47 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav{
+ background-color: red;
+ width: 600px;
+}
+
+ul{
+	display: flex;
+}
+
+li{
+	list-style: none;
+	padding: 10px;
+}
+
+button {
+	background-color: red;
+	border:none;
+	color: #fff;
+}
+
+footer{
+	width: 590px;
+	text-align: center;
+	padding: 5px;
+	background-color: grey;
+}
+
+body{
+	background-color: black;
+	width: 600px;
+	margin: 0px auto;
+}
+
+main{
+	background-color: #fff;
+	width: 600px;
+	height: 500px
+}
+
+h1{
+	color: white;
+}
