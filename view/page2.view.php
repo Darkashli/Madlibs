@@ -1,8 +1,14 @@
-<h3>Onkunde</h3><br>
-<p>Wat zou je graag willen kunnen?</p><br>
-<p>Met welke persoon kun je goed opschieten?</p><br>
-<p>Wat is je facvoriete getal?</p><br>
-<p>Wat heb je altijd bij je als je op vakantie gaat?</p><br>
-<p>Wat is je beste persoonlijke eigenschap?</p><br>
-<p>Wat is je slechtste persoonlijke eigenschap?</p><br>
-<p>Wat is het ergste dat je kan overkomen?</p><br>
+<div class="container">
+<form method="POST">
+	<h3>Onkunde</h3><br>
+	<span>Wat zou je graag willen kunnen?</span><input type="text" name="v1"><br>
+	<span>Wat is je facvoriete getal?</span><input type="text" name="v3"><br>
+	<span>Wat heb je altijd bij je als je op vakantie gaat?</span><input type="text" name="v4"><br>
+	<span>Wat is je beste persoonlijke eigenschap?</span><input type="text" name="v5"><br>
+	<span>Wat is je slechtste persoonlijke eigenschap?</span><input type="text" name="v6"><br>
+	<span>Wat is het ergste dat je kan overkomen?</span><input type="text" name="v7"><br><br>
+
+	<input type="hidden" name="view" value="onkundeShow">
+	<button class="submit" type="submit">Versturen</button><br><br>
+</form>
+</div>

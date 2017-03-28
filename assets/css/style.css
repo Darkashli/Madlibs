@@ -4,8 +4,8 @@
 }
 
 nav{
- background-color: red;
- width: 600px;
+ background-color: #872522;
+ width: 770px;
 }
 
 ul{
@@ -15,33 +15,76 @@ ul{
 li{
 	list-style: none;
 	padding: 10px;
-}
-
-button {
-	background-color: red;
-	border:none;
-	color: #fff;
+	font-size: 25px;
+	border-style: none;
 }
 
 footer{
-	width: 590px;
+	width: 760px;
 	text-align: center;
 	padding: 5px;
-	background-color: grey;
+	background-color:#872522;
+	color: #fff;
 }
 
 body{
-	background-color: black;
-	width: 600px;
-	margin: 0px auto;
+	background-color: #3D3B35;
+	font-family: arial;
+
+}
+div.container{
+	background-color: #fff;
+	width: 770px;
+
+
 }
 
-main{
-	background-color: #fff;
-	width: 600px;
-	height: 500px
-}
 
 h1{
 	color: white;
+	font-size: 50px;
+	font-family: fantasy;
+    padding-top: 20px;
+    background-color: #3D3B35;
+}
+
+h3{
+	padding: 20px 0px 10px 15px;
+	font-weight: bolder;
+}
+
+p{
+	padding: 5px 0px  5px 20px;
+	width: 280px;
+}
+
+li {
+	list-style:none
+	border:none;
+}
+
+
+button.submit{
+	float: right;
+	margin-right: 220px;
+	width: 73px;
+	height: 30px;
+	font-size: 14px;
+
+	background-color: #f7f7f7;
+
+}
+
+input{
+	float: right;
+	display: flex;
+	flex-direction: column;
+	margin-right: 20px;
+	width: 270px;
+
+}
+
+span{
+	display: block;
+	margin-left: 15px;
 }

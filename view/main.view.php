@@ -7,7 +7,7 @@
 </head>
 <body>
   <header>
-  	<h1>Mad Libs</h1>
+  	<h1>mad Libs</h1>
   </header>
     <nav>
     	<ul>

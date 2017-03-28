@@ -10,9 +10,16 @@
 				return "/view/page2.view.php";
 				break;
 
+			case 'pageresult':
+			    return "/view/pageresult.view.php";
+				break;
+
+			case 'paderesult2':
+                return "/view/pageresult2.view.php";
+				break;
+
 			
 			default:
-				// This melding will be shown when page does not exist! 
 				echo "This page does not exist!";
 				break;
 		}
