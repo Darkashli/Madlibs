@@ -8,7 +8,7 @@
 	{
 		$view = $_POST['view'];
 
-		if ($view == "page")
+		if ($view == "pageresult")
 		{
 			$v1 = $_POST['v1'];
 			$v2 = $_POST['v2'];

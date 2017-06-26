@@ -22,7 +22,7 @@
 			default:
 				echo "This page does not exist!";
 				break;
-		}
+				}
 	}
 
 ?>

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Madlibs</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
   <header>
@@ -13,22 +13,18 @@
     	<ul>
     		<li>
     			<form method="GET">
-					<input type="hidden" name="view" value="page">
+					<input type="hidden" name="view" value="page.view">
 					<button type="submit">Er heerst paniek...</button>
 				</form>
     		</li>
     		<li>
     			<form method="GET">
-					<input type="hidden" name="view" value="page2">
+					<input type="hidden" name="view" value="page2.view">
 					<button type="submit">Onkunde</button>
 				</form>
     		</li>
     	</ul>
     </nav>
-    <main>
-        	<?php require(_ROOT_ . "$content"); ?>
-
-    </main>
 	<footer>Publiceerde in 2017-2018</footer>
 </body>
 </html>
